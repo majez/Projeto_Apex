@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="jogar.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Poppins&family=Teko:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+<link rel="icon" type="image/png" href="img/logoheader.png">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Overpass:wght@500&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    <div class="cabeçalho">
+        <header>
+            <a href="#"> <img class="logoheader" src="img/logoheader.png" alt=""></a>
+            <a class="home" href="home.html"><h2>HOME</h2></a>
+        </header>
+    </div>
+    <div class="voltar">
+        <a href="home.html"><img src="img/seta (2).png" alt=""></a>
+    </div>
+    <img class="fundojogar" src="img/valkfundo.jpg" alt="">
+    <div class="logojogar">
+        <img src="img/apex-white-icon.png" alt="">
+        <p class="p1">SELECIONE SUA PLATAFORMA</p>
+        <p class="p2">Apex Legends está disponível de graça para PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch e PC via EA app e Steam.</p>
+    </div>
+    <div class="cards">
+        <a class="steam" target="_blank" href="https://store.steampowered.com/app/1172470/Apex_Legends/?utm_medium=organic&utm_source=franchise_web&utm_content=buylink"><img src="img/STEAM.png" alt=""></a>
+        <a class="xbox" target="_blank" href="https://www.xbox.com/pt-br/games/store/apex-legends/bv9ml45j2q5v?rtc=1"><img src="img/XBOX.png" alt=""></a>
+        <a class="switch" target="_blank" href="https://www.nintendo.com/store/products/apex-legends-switch/"><img src="img/SWITCH.png" alt=""></a>
+        <a class="ps4" target="_blank" href="https://store.playstation.com/pt-br/product/UP0006-CUSA12540_00-APEXLEGENDRSPWN1"><img src="img/PS4.png" alt=""></a>
+    </div>
+
+
+    <script>
+    ScrollReveal({ reset: true, duration: 1000});
+    ScrollReveal().reveal('.cards', { delay: 700, origin: 'bottom', distance: '100px' });
+    ScrollReveal().reveal('.p1', { delay: 300, origin: 'bottom', distance: '50px' });
+    ScrollReveal().reveal('.p2', { delay: 300, origin: 'bottom', distance: '50px' });
+    </script>
+    
+</body>
+</html>

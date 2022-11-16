@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    z-index: -4;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.voltar{
+    position: relative;
+    bottom: 67px;
+    right: 115px;
+    transition: all 0.2s;
+    display: inline-block;
+    z-index: 10;
+}
+.voltar:hover{
+    opacity: 0.6;
+}
+img{
+    position: absolute;
+    top: 160px;
+    border: 1px solid white;
+    right: 750px;
+    border-radius: 250px;
+}
+h2{
+    position: absolute;
+    font-size: 60px;
+    top: 50px;
+    right: 650px;
+    color: aliceblue;
+}
+h3{
+    position: absolute;
+    font-size: 60px;
+    top: 730px;
+    right: 650px;
+    color: aliceblue;
+}
+h4{
+    position: absolute;
+    font-size: 60px;
+    top: 840px;
+    right: 800px;
+    color: aliceblue;
+}
